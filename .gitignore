@@ -1,0 +1,98 @@
+live/
+.terraform/
+# Terraform
+.terraform/
+*.tfstate
+*.tfstate.backup
+*.tfvars
+crash.log
+*.log
+*.tfplan
+*.tfapply
+.
+
+;
+
+.terraform.lock.hcl
+
+# Terragrunt
+*.hcl.*
+*.terragrunt-cache/
+
+# Genel
+.DS_Store
+*.bak
+*.swp
+# =====================
+# Terraform
+# =====================
+# Local .terraform directories
+**/.terraform/
+
+# Terraform state files
+*.tfstate
+*.tfstate.backup
+
+# Crash log
+crash.log
+
+# Exclude CLI-generated plan files
+*.tfplan
+*.tfapply
+
+# Exclude variable definitions if they contain secrets
+*.tfvars
+terraform.tfvars
+
+# Lock file
+.terraform.lock.hcl
+
+# Override files (always)
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# =====================
+# Terragrunt
+# =====================
+# Cache folder
+**/.terragrunt-cache/
+
+# Terragrunt config backups
+*.hcl.*
+
+# =====================
+# IDE / Editor
+# =====================
+# VSCode
+.vscode/
+
+# JetBrains
+.idea/
+*.iml
+
+# Sublime
+*.sublime-project
+*.sublime-workspace
+
+# =====================
+# OS Files
+# =====================
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+
+# =====================
+# Optional / Misc
+# =====================
+# Environment files
+.env
+.env.local
+.env.*.local
+
+# Backup files
+*.bak
+*.swp
